@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.pt_60 {
+    padding-top: 60px;
+}
+
+.textmonial {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 133.4%;
+    /* identical to box height, or 59px */
+
+    letter-spacing: 0.02em;
+
+    color: #1E1E1E;
+}
+
+.d_flex {
+    display: flex;
+}
+
+.justify_cont_center {
+    justify-content: center;
+}
+
+.align_item_center {
+    align-items: center;
+}
+
+.pl_12 {
+    padding-left: 12px;
+}
+
+.pr_12 {
+    padding-right: 12px;
+}
+
+.pt_50 {
+    padding-top: 50px;
+}
+
+.pb_50 {
+    padding-bottom: 50px;
+}
+
+.p_1 {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 176%;
+    /* or 32px */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #1E1E1E;
+}
+
+.p_2 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+
+    color: #1E1E1E;
+    padding-top: 26px;
+}
+
+.border {
+
+    border: 2px solid #FACA10;
+    border-radius: 50%;
+}
+
+.p_12 {
+    padding: 12px;
+}
+
+.ml_12 {
+    margin-left: 12px;
+}
+
+.mr_12 {
+    margin-right: 12px;
+}
+
+.position_relative {
+    position: relative;
+}
+
+.position_absolute {
+    position: absolute;
+}
+
+.bottom_-30 {
+    bottom: -30px;
+}
+
+.right_10 {
+    right: 10px;
+}
+
+.slider-nav .slick-current {
+    transform: scale(0.8) !important;
+    /* display: block !important; */
+    position: relative;
+}
+
+.slider-nav .slick-current::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 2px solid orange;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.slider-nav .slick-current.slick-active {
+    position: relative;
+}
+
+
+
+
+
+
+.slider-nav .slick-current::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    bottom: 0;
+    left: -10px;
+    right: 0;
+    padding: 10px;
+    border: 2px solid orange;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.slick-active:has(+ .slick-current) {
+    transform: scale(0.5) !important;
+}
+
+.slick-current+div {
+    transform: scale(0.5) !important;
+}
+
+.slick-cloned+div {
+    transform: scale(0.25) !important;
+}
+
+.slider-nav .slick-active {
+    transform: scale(0.3);
+}
