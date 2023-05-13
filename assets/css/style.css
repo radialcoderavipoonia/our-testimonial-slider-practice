@@ -188,3 +188,27 @@
 .slider-nav .slick-active {
     transform: scale(0.3);
 }
+
+@media (max-width:768) {
+    .slider-nav .slick-current {
+        transform: scale(0.7) !important;
+        /* display: block !important; */
+        position: relative;
+    }
+
+    .slick-active:has(+ .slick-current) {
+        transform: scale(0.6) !important;
+    }
+
+    .slick-current+div {
+        transform: scale(0.6) !important;
+    }
+
+    .slick-cloned+div {
+        transform: scale(0.25) !important;
+    }
+
+    .slider-nav .slick-active {
+        transform: scale(0.25);
+    }
+}
